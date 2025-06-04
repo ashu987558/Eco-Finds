@@ -1,6 +1,7 @@
 ♻️ EcoFinds – Empowering Sustainable Second-Hand Marketplaces
 EcoFinds is a second-hand marketplace platform designed to promote a sustainable, circular economy by making it easy for people to buy and sell pre-owned items. Our platform empowers users to make eco-conscious decisions by offering features like auctions, chat-based negotiations, personalized recommendations, and community-driven trust systems.
 
+
 🌟 Hackathon Summary
 
 Team Focus: Building a cross-platform (desktop & mobile web) MVP that handles:
