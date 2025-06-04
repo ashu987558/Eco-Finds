@@ -69,3 +69,16 @@
 
 ## 🗂️ Project Structure
 
+EcoFinds/
+├── backend/ # Node.js backend
+│ ├── controllers/ # Logic for each API route
+│ ├── models/ # Mongoose schemas
+│ ├── routes/ # Express API endpoints
+│ ├── middleware/ # Auth, error handlers, OTP
+│ └── utils/ # Helper functions and validators
+│
+├── frontend/ # React frontend
+│ ├── components/ # UI components
+│ ├── pages/ # Main page views
+│ ├── services/ # API integration
+│ └── styles/ # CSS and theme files
