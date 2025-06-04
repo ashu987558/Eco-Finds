@@ -3,68 +3,42 @@ EcoFinds is a second-hand marketplace platform designed to promote a sustainable
 
 🌟 Hackathon Summary
 Team Focus: Building a cross-platform (desktop & mobile web) MVP that handles:
-
 User authentication with OTP/email verification
-
 Product listings and auctions
-
 Buyer-seller chat
-
 Advanced filters and personalized feeds
-
 Admin dashboard for complaints
-
 A modern and intuitive user interface
 
 Technology Stack:
-
 Frontend: React.js
-
 Backend: Node.js + Express.js
-
 Database: MongoDB
-
 AI-Powered Development: Leveraged Blackbox to rapidly generate production-quality code (CRUD logic, APIs, UI components, validation logic, etc.)
 
 🧩 Features Implemented
 1. Authentication & User Profiles
 OTP and Email Verification
-
 Login/Signup with secure JWT sessions
-
 Editable User Dashboard
-
 2. Listings & Auctions
 Post, update, delete products with images
-
 Set up auctions with min bids and durations
-
 Live auction interface with countdown and bidding logic
-
 3. Discovery & Recommendations
 Search bar + advanced filters (price, condition, category, location)
-
 Personalized "You Might Like" feed (based on browsing history)
-
 Saved searches and price-drop alerts
-
 4. Communication & Transactions
 In-app chat between buyers and sellers
-
 Cart system for reviewing multiple listings
-
 View past purchases and leave ratings
-
 5. Trust & Safety
 Seller & buyer ratings
-
 Dispute resolution system
-
 Admin dashboard for managing complaints and flagged users
-
 6. Multi-language Support
 English (default)
-
 Hindi & Gujarati support for accessibility
 
 🏗️ Project Structure
@@ -73,17 +47,29 @@ Copy
 Edit
 EcoFinds/
 ├── backend/           # Node.js Express API
+
 │   ├── controllers/   # Business logic for each route
+
 │   ├── models/        # Mongoose schemas for MongoDB
+
 │   ├── routes/        # API endpoints
+
 │   ├── middleware/    # Auth, error handlers, OTP
+
 │   └── utils/         # Reusable validators and helpers
+
 │
 ├── frontend/          # React frontend
+
 │   ├── components/    # Reusable UI components
+
 │   ├── pages/         # Route-specific views
+
 │   ├── services/      # API integration logic
+
 │   └── styles/        # CSS and theming
+
+
 🧠 Implementation Plan
 Why Odoo team should be interested:
 Modular Design: Clear separation between frontend, backend, and services for scalability.
